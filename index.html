@@ -44,12 +44,7 @@ For Linux please refer to <a href="http://secshoggoth.blogspot.com/2014/02/insta
 <p><a href="https://github.com/SiowCY/IDAYara/blob/gh-pages/IDAYara.py"></a></p>
 <p>If you want to further look for the detected location on the address, insert the following code into YaraScanner.py. YaraScanner.py located at \IDAScope\idascope\core.
 Look for _result_callback function</p>
-<p>if data["matches"]:
-            while i < len(adjusted_offsets):
-                SetColor(adjusted_offsets[0][0], CIC_ITEM, 0x0000ff)
-                print "  [+] YARA Match for signature: %s at location: %sL" % (data["rule"], adjusted_offsets[i][0])
-                SetColor(adjusted_offsets[i][0], CIC_ITEM, 0x00faaf)
-                i += 1</p>
+
 <p>Note: The memory offset translate into virtual address</p>
       </section>
     </div>
