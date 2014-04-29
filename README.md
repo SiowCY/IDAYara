@@ -1,6 +1,6 @@
 IDAYara
 =======
-* Using Yara Scan in IDA Pro
+* Using Yara Scan in IDA Pro without PySide
 * Download IDAScope from http://pnx-tf.blogspot.com/2014/02/idascope-v11-yara-scanning.html
 * Download and install yara-python from https://github.com/plusvic/yara/releases/tag/2.1.0
 * Look for your yara library file, mostly located at C:\Python27\Lib\site-packages\yara.pyd and copy it into your IDA\lib folder
