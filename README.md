@@ -1,5 +1,4 @@
 IDAYara
-=======
 
 Using Yara Scan in IDA Pro
 
