@@ -136,7 +136,7 @@ class YaraScanner():
             adjusted_offsets.append((self._translateMemOffsetToVirtualAddress(string[0]), string[1], string[2]))
         data["strings"] = adjusted_offsets
         if data["matches"]:
-            # Note The changes is make on here
+            # Note The changes is made on here
             # The memory offset is translate into virtual address
             while i < len(adjusted_offsets):
                 print "  [+] YARA Match for signature: %s at location: %sL" % (data["rule"], adjusted_offsets[i][0])
