@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Idayara : " />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Idayara</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/SiowCY/IDAYara">View on GitHub</a>
+
+          <h1 id="project_title">Idayara</h1>
+          <h2 id="project_tagline"></h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/SiowCY/IDAYara/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/SiowCY/IDAYara/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="ida-pro-with-yara-scan" class="anchor" href="#ida-pro-with-yara-scan"><span class="octicon octicon-link"></span></a>IDA Pro with Yara Scan</h1>
+
+<p>This is Yara Scan for IDA Pro</p>
+
+<p>First you need download IDAScope from <a href="http://pnx-tf.blogspot.com/2014/02/idascope-v11-yara-scanning.html">IDAScope v11</a>. Please ensure you have install yara-python, you may find it on <a href="https://github.com/plusvic/yara/releases/tag/2.1.0">Yara-Python</a>
+For Windows user please copy \python27\lib\site-packages\yara.pyd into your \IDA\lib
+For Linux please refer to <a href="http://secshoggoth.blogspot.com/2014/02/installing-yara-into-ida-pro-64-bit.html">http://secshoggoth.blogspot.com/2014/02/installing-yara-into-ida-pro-64-bit.html</a></p>
+
+<p>In order to use Yara Scan without PySide, please add a new script file which in same directory with IDAScope:</p>
+
+<p>If you want to further look for the detected location on the address, insert the following code into YaraScanner.py. YaraScanner.py located at \IDAScope\idascope\core.
+Look for _result_callback function</p>
+
+<p>Note: The memory offset translate into virtual address</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Idayara maintained by <a href="https://github.com/SiowCY">SiowCY</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
