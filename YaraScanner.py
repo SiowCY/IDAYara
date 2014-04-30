@@ -139,7 +139,7 @@ class YaraScanner():
             # Note The changes is made on here
             while i < len(adjusted_offsets):
                 print "  [+] YARA Match for signature: %s at location: 0x%x" % (data["rule"], adjusted_offsets[i][0])
-                SetColor(adjusted_offsets[i][0], CIC_ITEM, 0x00faaf) #Failed to set .text color
+                SetColor(adjusted_offsets[i][0], CIC_ITEM, 0x00faaf) #Still in process
                 i += 1
         result_rule = None
         for rule in self._yara_rules:
