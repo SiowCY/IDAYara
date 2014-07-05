@@ -10,9 +10,4 @@ IDAYara
 * Get the IDAYara.py from https://github.com/SiowCY/IDAYara/blob/gh-pages/IDAYara.py
 * Please ensure your IDAYara.py is same directory with IDAScope.py
 
--------------------------------------------------------------------------------------------------------------------------
-* If you want to show the location of the successful detected address, you may download the edited version YaraScanner.py https://github.com/SiowCY/IDAYara/blob/gh-pages/YaraScanner.py
-* The changes are made on _result_callback function. 
-* Note the SetColor only are not failed to set color on .text
-
 
